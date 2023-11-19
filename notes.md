@@ -45,4 +45,15 @@ document.writeln(100)
 document.writeln(<br>)
 document.writeln(100)
 </script>
+2. Notasi Angka di Tipe data number ada 3:
+- Number Notation (heexadecimal, binary, octal)
+        document.writeln(0b10011001) //binary starts with 0b 153
+        document.writeln(0xFF) //hexadecimal starts with 0xFF 255
+        document.writeln(0010) //Octal starts with 0o10 8
+
+## Tipe Data Booleam
+1. Tipe data yang direpresentasikan dengan true atau false
+
+
+
 
