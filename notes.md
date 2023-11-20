@@ -55,5 +55,10 @@ document.writeln(100)
 1. Tipe data yang direpresentasikan dengan true atau false
 
 
+## Tipe Data String
+1. string/text adalah tipe data yang isinya kumpulan kosong atau lebih karakter (bisa "" atau "abc")
+
+
+
 
 
