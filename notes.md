@@ -57,6 +57,8 @@ document.writeln(100)
 
 ## Tipe Data String
 1. string/text adalah tipe data yang isinya kumpulan kosong atau lebih karakter (bisa "" atau "abc")
+2. Perlu menggunakan petik dua tau petik satu untuk mendeklarasikan tipe data string (misal 'contohteks' atau "contohteks string")
+3. Bisa menambahkan karakter menggunakan operator plus (+)
 
 
 
