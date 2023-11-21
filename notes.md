@@ -60,6 +60,46 @@ document.writeln(100)
 2. Perlu menggunakan petik dua tau petik satu untuk mendeklarasikan tipe data string (misal 'contohteks' atau "contohteks string")
 3. Bisa menambahkan karakter menggunakan operator plus (+)
 
+# Escape Sequence
+Escape sequence dalam JavaScript digunakan untuk menyisipkan karakter khusus dalam string, yang seharusnya memiliki makna khusus, seperti karakter kutip (') atau karakter baris baru. Escape sequence dimulai dengan karakter backslash (`\`) diikuti oleh karakter khusus.
+
+Berikut beberapa escape sequence umum dalam JavaScript:
+
+1. `\n`: Mewakili karakter baris baru.
+   Contoh:
+   ```javascript
+   console.log("Baris pertama\nBaris kedua");
+   // Output:
+   // Baris pertama
+   // Baris kedua
+   ```
+
+2. `\'` dan `\"`: Digunakan untuk menyisipkan tanda kutip tunggal atau ganda di dalam string.
+   Contoh:
+   ```javascript
+   console.log('Ini adalah tanda kutip tunggal (\')');
+   console.log("Ini adalah tanda kutip ganda (\")");
+   ```
+
+3. `\\`: Digunakan untuk menyisipkan karakter backslash.
+   Contoh:
+   ```javascript
+   console.log("Ini adalah karakter backslash: \\");
+   ```
+
+4. `\t`: Mewakili karakter tab.
+   Contoh:
+   ```javascript
+   console.log("Kolom 1\tKolom 2\tKolom 3");
+   ```
+
+5. `\uXXXX`: Representasi Unicode untuk karakter dengan kode Unicode `XXXX`.
+   Contoh:
+   ```javascript
+   console.log("\u00A9"); // Output: ©
+   ```
+
+Jadi, escape sequence membantu Anda menulis string dengan karakter khusus tanpa membingungkan interpreter JavaScript.
 
 
 
