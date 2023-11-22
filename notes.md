@@ -60,7 +60,7 @@ document.writeln(100)
 2. Perlu menggunakan petik dua tau petik satu untuk mendeklarasikan tipe data string (misal 'contohteks' atau "contohteks string")
 3. Bisa menambahkan karakter menggunakan operator plus (+)
 
-# Escape Sequence
+## Escape Sequence
 Escape sequence dalam JavaScript digunakan untuk menyisipkan karakter khusus dalam string, yang seharusnya memiliki makna khusus, seperti karakter kutip (') atau karakter baris baru. Escape sequence dimulai dengan karakter backslash (`\`) diikuti oleh karakter khusus.
 
 Berikut beberapa escape sequence umum dalam JavaScript:
@@ -101,6 +101,14 @@ Berikut beberapa escape sequence umum dalam JavaScript:
 
 Jadi, escape sequence membantu Anda menulis string dengan karakter khusus tanpa membingungkan interpreter JavaScript.
 
+## Variable
+1. Variable adalah tempat untuk menyimpan data
+2. reusable, bisa digunakan berulang-ulang
+3. bisa pake var, const, atau let
+4. JS dynamic, kita bisa ubah tipe data di variable yang sama
+
+Contoh
+var fullname; //tidak boleha da spasi
 
 
 
