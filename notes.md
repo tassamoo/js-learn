@@ -110,5 +110,11 @@ Jadi, escape sequence membantu Anda menulis string dengan karakter khusus tanpa 
 Contoh
 var fullname; //tidak boleha da spasi
 
+## Mengakses Variable
+1. Bisa digunakan Kembali
+2. Mempermudah ketika membutuhkan data yang sama berkali-kali
+3. Untuk akses sebutkan nama variablenya aja
+
+
 
 
